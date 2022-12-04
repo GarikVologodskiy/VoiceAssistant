@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val firstname: String = "Ivan"
         val lastname: String = "Ivanov"
         var age: Int = 37
-        var height: Double = 172.2
+        var height: Double = 172.4
         //var weight: Double = 90.0
 
         val summary: String = "firstname: $firstname lastname: $lastname age: $age height: $height"
