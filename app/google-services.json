@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "674543020091",
+    "project_id": "volo-a8d98",
+    "storage_bucket": "volo-a8d98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674543020091:android:30f601b00feca0d94e941e",
+        "android_client_info": {
+          "package_name": "com.example.vologodskiivoiceassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674543020091-jluommfa2sa8ki9v1l7tgka2olqqfvl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Ch7kjwJL40aXjPhPryBzRBQ7vdQ-U4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674543020091-jluommfa2sa8ki9v1l7tgka2olqqfvl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674543020091:android:48bceb3a18146f9c4e941e",
+        "android_client_info": {
+          "package_name": "ru.gazprompay.android.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674543020091-jluommfa2sa8ki9v1l7tgka2olqqfvl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Ch7kjwJL40aXjPhPryBzRBQ7vdQ-U4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674543020091-jluommfa2sa8ki9v1l7tgka2olqqfvl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
