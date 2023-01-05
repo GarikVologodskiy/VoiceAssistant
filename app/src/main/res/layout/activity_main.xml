@@ -8,12 +8,16 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="?colorPrimary"
+        android:background="@color/pro_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/toolbar_menu"
         app:title="@string/app_name"
+        app:titleMarginBottom="20dp"
+        app:titleMarginTop="0dp"
         app:titleTextColor="?colorOnPrimary" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -43,27 +47,28 @@
         android:divider="?android:attr/colorBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_input_layout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-22dp"
         tools:listitem="@layout/item_pod" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/voice_input_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         android:src="@drawable/ic_baseline_keyboard_voice_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
     <ProgressBar
         android:id="@+id/progress_bar"
-        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
