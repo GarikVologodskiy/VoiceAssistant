@@ -26,6 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
         android:hint="@string/request_hint"
         app:layout_constraintTop_toBottomOf="@id/toolbar">
 
@@ -33,9 +36,19 @@
             android:id="@+id/text_input_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="top|start"
             android:imeOptions="actionDone"
             android:inputType="text"
-            android:maxLines="1" />
+            android:maxLines="2"
+            android:minLines="2"
+            android:lines="2"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
