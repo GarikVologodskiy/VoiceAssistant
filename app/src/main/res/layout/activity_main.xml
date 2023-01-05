@@ -45,6 +45,7 @@
             android:maxLines="2"
             android:minLines="2"
             android:lines="2"
+            android:paddingBottom="30dp"
             android:scrollbarStyle="insideInset"
             android:scrollbars="vertical"
             android:singleLine="false"
